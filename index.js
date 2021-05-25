@@ -9,7 +9,7 @@ function mapToDouble(sourceArray){
     return sourceArray.map(num => num*2);
 }
 function mapToSquare(sourceArray){
-    return sourceArray.map(num => num*x);
+    return sourceArray.map(num => num*num);
 }
 function reduceToTotal(sourceArray, startingPoint = 0){
     const reducer = function(accumulator, currentValue){
