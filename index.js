@@ -1,9 +1,9 @@
 // Your code here
 function mapToNegativize(sourceArray){
-    return sourceArray.map(x => x * -1);
+    return sourceArray.map(num => num * -1);
 }
 function mapToNoChange(sourceArray){
-    return sourceArray.map(x => x);
+    return sourceArray.map(num => num);
 }
 function mapToDouble(sourceArray){
     return sourceArray.map(x => x*2);
