@@ -6,7 +6,7 @@ function mapToNoChange(sourceArray){
     return sourceArray.map(num => num);
 }
 function mapToDouble(sourceArray){
-    return sourceArray.map(x => x*2);
+    return sourceArray.map(num => num*2);
 }
 function mapToSquare(sourceArray){
     return sourceArray.map(x => x*x);
